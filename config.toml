@@ -119,16 +119,6 @@ googleAnalytics = ""
         enable = true
 
         [[params.experience.list]]
-        title = "Senior Design Project"
-        dates = "August 2018 - May 2019"
-        company = "Florida Institute of Technology"
-        [[params.experience.list.items]]
-        details = "Researched, designed, and modeled a trap for invasive lionfish as part of a team of student engineers."
-        [[params.experience.list.items]]
-        details = "Developed sensory mechanisms involving an IR Receiver and IR LED interfacing with an Arduino."
-
-
-        [[params.experience.list]]
         title = "Help Desk Technician"
         dates = "November 2020 - Present"
         company = "C3 Pure Fibre"
@@ -139,7 +129,15 @@ googleAnalytics = ""
         details = "Assist, coach, train all support representatives on work-related procedures and products."
         [[params.experience.list.items]]
         details = "Work with supervisors to streamline troubleshooting processes as well as create and maintain appropriate troubleshooting procedures."
-        
+
+        [[params.experience.list]]
+        title = "Senior Design Project"
+        dates = "August 2018 - May 2019"
+        company = "Florida Institute of Technology"
+        [[params.experience.list.items]]
+        details = "Researched, designed, and modeled a trap for invasive lionfish as part of a team of student engineers."
+        [[params.experience.list.items]]
+        details = "Developed sensory mechanisms involving an IR Receiver and IR LED interfacing with an Arduino."        
 
 
 
