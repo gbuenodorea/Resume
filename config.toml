@@ -1,0 +1,173 @@
+# Page settings
+
+baseURL = "https://gbuenodorea.github.io/"
+languageCode = "en"
+title = "Guilherme Bueno Dorea"
+theme = "hugo-devresume-theme"
+googleAnalytics = ""
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#516FC1"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Guilherme Bueno Dorea"
+        tagline = "Computer Engineering B.S."
+        avatar = "Profile.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Cayman Islands"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "1345 546 2686"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "gbuenodorea@gmail.com"
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "HTML/JavaScript/CSS"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "C++/C#"
+        [[params.skills.list.items]]
+        details = "MySQL/PHP"
+        [[params.skills.list.items]]
+        details = "Hardware Replacement"
+        [[params.skills.list.items]]
+        details = "Arduino/Raspberry Pi board interfacing"
+        [[params.skills.list.items]]
+        details = "ARM Assembly Language"
+
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "B.S. in Computer Engineering"
+        university = "Florida Institute of Technology"
+        dates = "2015 - 2019"
+        [[params.education.list]]
+        degree = "High School Diploma"
+        university = "Triple C School"
+        dates = "2011 - 2015"
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Portuguese"
+        level = "Native"
+
+
+
+    [params.summary]
+        enable = true
+        text = "Problem-solver and result-oriented Computer Engineering graduate, seeking a position in the computer industry to assist in creating and implementing a variety of technical directives. Coming with the ability to communicate effectively in a team-oriented environment, and technical skills in computer hardware and software."
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Design Project"
+        dates = "August 2018 - May 2019"
+        company = "Florida Institute of Technology"
+        [[params.experience.list.items]]
+        details = "Researched, designed, and modeled a trap for invasive lionfish as part of a team of student engineers."
+        [[params.experience.list.items]]
+        details = "Developed sensory mechanisms involving an IR Receiver and IR LED interfacing with an Arduino."
+
+
+        [[params.experience.list]]
+        title = "Help Desk Technician"
+        dates = "November 2020 - Present"
+        company = "C3 Pure Fibre"
+        details = "Talk with customers by phone and/or email to resolve data problems and troubleshoot video, HSD (High Speed Data), digital phone and data services."
+        [[params.experience.list.items]]
+        details = "Resolve complex data problems that involve local network issues, email issues, modem trouble and other company owned equipment and/or software configurations."
+        [[params.experience.list.items]]
+        details = "Assist, coach, train all support representatives on work-related procedures and products."
+        [[params.experience.list.items]]
+        details = "Work with supervisors to streamline troubleshooting processes as well as create and maintain appropriate troubleshooting procedures."
+        
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Coding a text splice application in python"
+        meta = ""
+        tagline = "Created a text splice tool in Python that extracts text from a Word/Text document and inserts it into specified rows and columns in an Excel spreadsheet."
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/gbuenodorea"
+        title = "gbuenodorea"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/gbuenodorea"
+        title = "gbuenodorea"
+
+	[params.footer]
+    	copyright = "Guilherme Bueno Dorea"
+
+
+
